@@ -1,0 +1,231 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9f3ff; /* Lighter sky blue */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+#header {
+    background: linear-gradient(to right, #008cba, #00aadd); /* More vibrant blue gradient */
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.header-subtitle {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* Main Content Section Styling */
+#main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Underline Styling (Short) */
+.short-underline {
+    width: 150px;
+    height: 3px;
+    background-color: #008cba; /* Darker blue for contrast */
+    margin-bottom: 15px;
+}
+
+/* Heading Styling */
+h2, h3, h4, h5, h6 {
+    color: #0077b6; /* Slightly darker blue for headings */
+    font-weight: bold;
+}
+
+/* Highlighting Important Text */
+.highlight {
+    background-color: #6ec6ff; /* Soft cyan highlight */
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Amazing Facts List Styling - Blue bullet points only */
+.amazing-facts {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.amazing-facts li::before {
+    content: "•";
+    color: #0077b6;
+    font-size: 1.2rem;
+    padding-right: 10px;
+}
+
+.amazing-facts li {
+    margin-bottom: 15px;
+}
+
+/* Spacing between list items for Comparison List */
+.spaced-list li {
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Quiz Section Styling */
+#quiz-section {
+    background-color: #b8e9fc; /* Soft sky blue background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Flexbox Layout for Octopus Quiz */
+.quiz-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Side (Header and Image) */
+.quiz-left {
+    text-align: left;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.quiz-left h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+/* Octopus Image Styling */
+.quiz-image {
+    border: 5px solid purple;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Right Side (Form Section with Margin Adjusted) */
+.quiz-right {
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    color: #0077b6;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f8f;
+}
+
+/* Table Section Styling */
+#species-table {
+    margin: 20px;
+    background-color: #e0f7ff; /* Softer light blue */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Short Underline for Common Octopus Species Heading */
+#species-table h2 {
+    margin-bottom: 10px;
+}
+
+#species-table .short-underline {
+    width: 150px;
+    height: 3px;
+    background-color: #008cba;
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black; /* Black border for table lines */
+}
+
+/* Header Row: Gray with White Text */
+.header-row {
+    background-color: #d3d3d3;
+    color: white;
+    font-weight: bold;
+}
+
+/* Second Row: Light Blue with Blue Text */
+tr:nth-child(2) {
+    background-color: #b8e9fc;
+    color: #0077b6;
+}
+
+/* Third Row: White with Blue Text */
+tr:nth-child(3) {
+    background-color: white;
+    color: #0077b6;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer Styling */
+#footer {
+    background: linear-gradient(to right, #008cba, #00aadd);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+}
